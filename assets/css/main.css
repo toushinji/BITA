@@ -1,0 +1,21 @@
+/* fonts used */
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: #33333d;
+}
+
+
+body{
+  font-size: 10px;
+}
+
+.font{
+  font-family: 'Baloo Chettan', cursive;
+}
