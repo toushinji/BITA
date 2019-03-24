@@ -3,7 +3,6 @@
   src: url("../fonts/ITC--bold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
 }
 
 @font-face {
@@ -16,17 +15,3 @@
 p {
   font-family: "ITC";
 }
-=======
-}
-
-@font-face {
-  font-family: "Futura";
-  src: url("../fonts/Futura--bold.otf") format("opentype");
-  font-style: normal;
-  font-weight: bold;
-}
-
-p {
-  font-family: "ITC";
-}
->>>>>>> a0b3d6e150c6597659a9a6406bac2917cbee12a7
