@@ -1,3 +1,14 @@
+:root{
+--bg-color: #33333d;
+--brand-color:  #37efba;
+--sm-card-1:  #55828b;
+--sm-card-2:  #3b6064;
+--lg-card:  #364958;
+--header-color: rgba(0, 0, 0, 0.3);
+--nav-bg-color: #27272f;
+--nav-color:  #e5e5e5;
+}
+
 @font-face {
   font-family: "ITC";
   src: url("../fonts/ITC--bold.otf") format("opentype");
@@ -12,6 +23,51 @@
   font-weight: bold;
 }
 
-p {
-  font-family: "ITC";
+*{
+  margin: 0px;
+  padding:  0px;
+  box-sizing: border-box; 
 }
+
+html, body{
+  background:var(--bg-color);
+  font-family: "ITC";
+  text-transform: uppercase;
+  max-height: 100vh;
+  max-width: 100vw;
+  height: 100%;
+  width:100%;
+}
+
+nav{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  width:100%;
+  height: 100px;
+  background-color: var(--nav-bg-color);
+}
+
+a{
+  text-decoration:none;
+  color:  var(--nav-color);
+  font-size: 15px;
+}
+
+.main-links{
+  position: absolute;
+  padding: 20px; 
+}
+/* 
+.bita__button--cta{
+  border-radius:5px;
+  background-color: var(--brand-color);
+  height: 70px;
+  width:  287px;
+  color:  #000;
+  align-self: center;
+  text-align: center;
+  padding: 0px;
+} */
