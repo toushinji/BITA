@@ -9,14 +9,14 @@
 --nav-color:  #e5e5e5;
 }
 
-@font-face {
+@font-face{
   font-family: "ITC";
   src: url("../fonts/ITC--bold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
 }
 
-@font-face {
+@font-face{
   font-family: "Futura";
   src: url("../fonts/Futura--bold.otf") format("opentype");
   font-style: normal;
@@ -30,44 +30,70 @@
 }
 
 html, body{
-  background:var(--bg-color);
+  background: var(--bg-color);
   font-family: "ITC";
   text-transform: uppercase;
   max-height: 100vh;
   max-width: 100vw;
   height: 100%;
-  width:100%;
+  width:  100%;
 }
 
-nav{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100vw;
-  width:100%;
+.nav-wrapper{
+  display:  flex;
   height: 100px;
   background-color: var(--nav-bg-color);
 }
 
-a{
-  text-decoration:none;
-  color:  var(--nav-color);
-  font-size: 15px;
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1000px;
+  width:  100%;  
 }
 
-.main-links{
-  position: absolute;
-  padding: 20px; 
+a{
+  text-decoration:  none;
+  color:  var(--nav-color);
+  font-size:  15px;
 }
-/* 
-.bita__button--cta{
+
+.cta{
+  color:  #000;
+  font-weight: bold;
+}
+
+.bita__button{
   border-radius:5px;
+  margin-left:  125px;
   background-color: var(--brand-color);
   height: 70px;
-  width:  287px;
-  color:  #000;
-  align-self: center;
-  text-align: center;
+  width:  280px;
   padding: 0px;
-} */
+} 
+
+.content-wrapper{
+  margin-top:104px;
+  max-width:1000px;
+  width:100%;
+  background-color:green;
+  margin: 0px 0px auto;
+}
+
+.brand{
+  color:  var(--brand-color);
+}
+
+.hyphen{
+  height:20px;
+  border-bottom:100px solid black;
+}
+
+#home{
+  display: flex;
+  justify-content: space-around;
+  width:  100%;
+}
+
