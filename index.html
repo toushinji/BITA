@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,83 @@
   <link rel="stylesheet" href="./assets/css/main.css">
   <title>BITA</title>
 </head>
+
 <body>
-  <header>
+  <div class="nav-wrapper">
     <nav>
-      <ul>
-        <li><a href="#" title="Home" class="uppercase">Home</a></li>
-        <li><a href="#" title="NEWS" class="uppercase">NEWS</a></li>
-        <li><a href="#" title="HOLISTIC LIVING" class="uppercase">HOLISTIC LIVING</a></li>
-        <li><a href="#" title="ABOUT" class="uppercase">ABOUT</a></li>
-        <li><a href="#" title="OUR EXPERTS" class="uppercase">OUR EXPERTS</a></li>
-      </ul>
-      <a href="#" class="cta">BOOK AN APPOINTMENT</a>
+      <a href="#" title="Home" class="main-links">home</a>
+      <a href="#" title="News" class="main-links">news</a>
+      <a href="#" title="Holistic Living" class="main-links">holistic living</a>
+      <a href="#" title="About" class="main-links">about</a>
+      <a href="#" title="Our Experts" class="main-links">our experts</a>
+      <button class="bita__button">
+        <a href="#" class="cta">BOOK AN APPOINTMENT</a>
+      </button>
     </nav>
-  </header>
+  </div> 
 
-  <section id="home">
-    <p class="brand uppercase">bita</p>
-    <span class="hyphen"></span>
-    <p class="justify-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem perspiciatis temporibus dolorum culpa illo cupiditate officiis architecto facere labore. Obcaecati nihil in rem repellendus adipisci. Culpa a molestiae maxime facere?
-    Atque rem ipsa commodi quasi esse ex nihil iure, cum soluta quibusdam perspiciatis eligendi inventore tempore odio fuga labore explicabo? Modi, molestiae.</p>
+    <section id="home">
+      <p class="brand">bita</p>
+      <span class="brand__hyphen"></span>
+      <p class="brand__text">We are a brand holistic personalization consultuncy focused on helping you achieve optimal health and gaining a proper balance in life-- physically, emotionally & spiritually.
+      </p>
     </section>
 
-    <section id="news">
-      <div class="medium-container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, cum qui? Ab eius aliquid a et ducimus, aut hic? Unde mollitia eveniet tenetur quos labore similique rem hic eligendi nesciunt.Dignissimos, sit debitis. Inventore temporibus sequi, quasi consequatur pariatur placeat, omnis iusto quae ipsum dolorem illo. Quidem at explicabo quaerat quas iusto incidunt alias itaque maiores? Voluptas cupiditate libero blanditiis.</p>
+    <div class="blurbs">
+      <p class="blurbs__text">
+        One size doesn’t fit all, our solutions are out the ordinary and is geared specifically towards your growth.    
+      </p>
+    </div>
+
+    <div class="node">
+      <div class="node__active"></div>
+      <div class="node__markers"></div>
+      <div class="node__markers"></div>
+    </div>
+
+    <section class="news">
+      <div class="news__medium-container">
+        <p class="news__medium-text">The truth about breakfast-- cereal, oatmeal, granola bars.
+        </p>
       </div>
-      <div class="small-container">
-        <p class="justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit optio sed doloribus atque distinctio. Architecto quia quam quidem est odit velit, molestias atque ducimus, praesentium fugiat, voluptates blanditiis temporibus adipisci.</p>
+
+      <div class="news__small-container-1">
+        <p class="news__small-text">When physical illness feeds mental illness.
+        </p>
       </div>
-      <div class="small-container">
-        <p class="justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit optio sed doloribus atque distinctio. Architecto quia quam quidem est odit velit, molestias atque ducimus, praesentium fugiat, voluptates blanditiis temporibus adipisci.</p>
-      </div>  
-      <div class="large-container">
-        <p class="justify-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit optio sed doloribus atque distinctio. Architecto quia quam quidem est odit velit, molestias atque ducimus, praesentium fugiat, voluptates blanditiis temporibus adipisci.</p>
+
+      <div class="news__small-container-2">
+        <p class="news__small-text">the calorie myth.
+        </p>
+      </div>
+
+      <div class="news__large-container">
+        <p class="news__large-text">how the western deit has derailed our evolution.
+        </p>
       </div>
     </section>
 
-    <section id="about">
-      <p>Who are we?</p>
-      <div class="team">
-        <div class="card image">
-          <p class="uppercase">jane malwod</p>
+    <section class="about">
+      <p class="who">Who are we?</p>
+      <div class="about__team">
+        <div class="about__card-1">
+          <p class="about__text">jane malwod</p>
         </div>
-        <div class="card image">
-          <p class="uppercase">oreido bustry</p> 
+        <div class="about__card-2">
+          <p class="about__text">oreido bustry</p>
         </div>
-        <div class="card image">
-          <p class="uppercase">jhin yhang</p>
+        <div class="about__card-3">
+          <p class="about__text">jhin yhang</p>
         </div>
-        <div class="card image">
-          <p class="uppercase">alkine milayn</p>
+        <div class="about__card-4">
+          <p class="about__text">alkine milayn</p>
         </div>
       </div>
     </section>
 
-    <section id="experts">
+    <section class="experts">
       <div class="notice">
-        <h1 class="uppercase">recognitions</h1>
+        <h1>recognitions</h1>
         <p>Why work with us?</p>
       </div>
 
@@ -71,7 +92,6 @@
         <span class="verticle line"></span>
         <span class="trophy"></span>
       </div>
-      
 
       <article>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo obcaecati velit hic exercitationem optio est repudiandae harum cumque veritatis neque repellendus sequi deserunt blanditiis, aliquam cupiditate ipsam molestias quos nobis?Ab, nemo. Reprehenderit porro dolorem quasi et impedit voluptates rerum ex, optio iure. Beatae autem molestias dicta hic fuga assumenda id. Quibusdam natus exercitationem neque odit nemo modi. Beatae, molestiae?</p>
@@ -79,29 +99,37 @@
 
       <aside>
         <div class="top-card image">
-          
         </div>
         <div class="bottom-card">
-          <p class=" justify-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quis atque odio vero minus asperiores, mollitia dignissimos nam eos consequatur, dolorem iste placeat veritatis eligendi omnis! Quas veritatis quo nobis.</p>  
+          <p class=" justify-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quis atque odio vero
+            minus asperiores, mollitia dignissimos nam eos consequatur, dolorem iste placeat veritatis eligendi omnis!
+            Quas veritatis quo nobis.
+          </p>
         </div>
       </aside>
-      
-      <p class="uppercase">ready to talk?</p>
+      <div class="cta">
+        <p>ready to talk?</p>
+        <button class="bita__button--cta">
+          book an appointment
+        </button>
+      </div> 
     </section>
-
-    <footer>
-      <p class="brand uppercase">bita</p>
-      <nav class="footer-nav">
-        <ul>
-          <li><a href="#" title="Home" class="uppercase">Home</a></li>
-          <li><a href="#" title="NEWS" class="uppercase">NEWS</a></li>
-          <li><a href="#" title="HOLISTIC LIVING" class="uppercase">HOLISTIC LIVING</a></li>
-          <li><a href="#" title="ABOUT" class="uppercase">ABOUT</a></li>
-          <li><a href="#" title="OUR EXPERTS" class="uppercase">OUR EXPERTS</a></li>
-        </ul>
-      </nav>
-      <div id="appoinment">
-      <a href="https://www.zillow.com/homedetails/1025-Chapel-Hill-Dr-Lawrenceville-GA-30045/60831964_zpid/">1025 chaple hill dr.<br>grayson, ga 30045 <br>P 678 587 9983<br>F 678 337 2231</a></li>    
-    </footer>
+  
+  <footer>
+    <p class="brand uppercase">bita</p>
+    <nav class="footer-nav">
+      <a href="#" title="Home">home</a>
+      <a href="#" title="News">news</a>
+      <a href="#" title="Holistic Living">holistic living</a>
+      <a href="#" title="About">about</a>
+      <a href="#" title="Our Experts">our experts</a>
+      <a href="#" class="bita__button--cta">BOOK AN APPOINTMENT</a>
+    </nav>
+    <div class="appointment">
+      <a href="https://www.zillow.com/homedetails/1025-Chapel-Hill-Dr-Lawrenceville-GA-30045/60831964_zpid/">1025 chaple
+          hill dr.<br>grayson, ga 30045 <br>P 678 587 9983<br>F 678 337 2231
+      </a>
+    </div>      
+  </footer>
 </body>
 </html>
