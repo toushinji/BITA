@@ -13,7 +13,7 @@
 
 @font-face{
   font-family: "ITC";
-  src: url("../fonts/ITC--bold.otf") format("opentype");
+  src: url("../fonts/ITC-bold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
 }
@@ -113,7 +113,6 @@ a{
   width:100%;
   margin: 0px auto;
   font-size: 52px;
-  font-family: 'ITC', serif;
   color: var(--nav-color);
   margin-bottom:  50px;
 }
@@ -397,7 +396,7 @@ footer{
 }
 
 .footer-wrapper{
-  /* position: relative; */
+  position: relative;
   display: flex;
   align-content: center;
   max-width:1000px;
@@ -436,6 +435,12 @@ footer{
   letter-spacing: normal;
   color: #e5e5e5;
 }
+
+
+.footer-nav a{
+  margin-left: 50px;
+}
+
 
 
 .appointment{
