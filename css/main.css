@@ -13,11 +13,7 @@
 
 @font-face{
   font-family: "ITC";
-<<<<<<< HEAD
-  src: url("../fonts/ITC-bold.otf") format("opentype");
-=======
   src: url("../assets/fonts/ITC-bold.otf") format("opentype");
->>>>>>> d13246f1fd9939ceb89237be610825290b832b25
   font-style: normal;
   font-weight: bold;
 }
