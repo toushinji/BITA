@@ -13,14 +13,18 @@
 
 @font-face{
   font-family: "ITC";
+<<<<<<< HEAD
   src: url("../fonts/ITC-bold.otf") format("opentype");
+=======
+  src: url("../assets/fonts/ITC-bold.otf") format("opentype");
+>>>>>>> d13246f1fd9939ceb89237be610825290b832b25
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face{
   font-family: "Futura";
-  src: url("../fonts/futura-medium.ttf") format("truetype");
+  src: url("../assets/fonts/futura-medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
 }
@@ -28,7 +32,7 @@
 *{
   margin: 0px;
   padding:  0px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html, body{
@@ -54,7 +58,7 @@ nav{
   align-items: center;
   margin: 0px auto;
   max-width: 1000px;
-  width:  100%;  
+  width:  100%;
 }
 
 a{
@@ -78,7 +82,7 @@ a{
   padding: 0px;
   box-shadow:0 15px 50px 0 rgba(55, 239, 186, 0.3);
   border:none;
-} 
+}
 
 .content-wrapper{
   margin-top:104px;
@@ -124,7 +128,7 @@ a{
   top: 25px;
   color: #fff;
   font-family: "Futura", serif;
-  text-transform: none; 
+  text-transform: none;
 }
 
 .node{
@@ -192,7 +196,7 @@ a{
   height: 383px;
   background-color: #55828b;
   border-bottom-left-radius:5px;
-  
+
 }
 
 .news__small-text{
@@ -255,10 +259,10 @@ a{
 }
 
 .who{
-  margin-left:111px; 
+  margin-left:111px;
   width: 348px;
   height: 67px;
-  font-family: AvantGardeLT;
+  font-family: "ITC";
   font-size: 52px;
   font-weight: bold;
   font-style: normal;
@@ -386,8 +390,7 @@ a{
 }
 
 footer{
-  display:  flex;
-  flex-direction: column;
+  display: flex;
   margin-top:100px;
   width:100%;
   max-height: 354px;
@@ -398,10 +401,7 @@ footer{
 .footer-wrapper{
   position: relative;
   display: flex;
-  align-content: center;
-  max-width:1000px;
-  width:100%;
-  margin:0 auto;
+  justify-content: space-between;
 }
 
 .footer-brand{
@@ -411,29 +411,27 @@ footer{
   text-transform: uppercase;
   width: 49px;
   height: 24px;
-  font-family: AvantGardeLT;
+  font-family: "ITC";
   font-size: 24px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -1.2px;
+  display: block;
 }
 
 .footer-nav{
-  /* position: absolute;
-  left: 100%; */
-  margin-top: 80px;
-  margin-left:216px;
   text-transform: uppercase;
   font-family: Futura;
   font-size: 15px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #e5e5e5;
+  margin-top: 80px;
+}
+
+.footer-nav a {
+  margin-left: 50px;
 }
 
 
@@ -441,17 +439,9 @@ footer{
   margin-left: 50px;
 }
 
-
-
 .appointment{
-  margin: 30px auto 0;
   font-family: 'futura', serif;
   font-size: 18px;
-  letter-spacing: -0.9px; 
-  max-width:1000px;
-  width:100%;
-  max-height: 124px;
-  height:100%;
 }
 
 .numbers{
