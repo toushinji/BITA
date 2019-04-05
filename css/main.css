@@ -78,6 +78,8 @@ a{
   padding: 0px;
   box-shadow:0 15px 50px 0 rgba(55, 239, 186, 0.3);
   border:none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .content-wrapper{
@@ -358,15 +360,12 @@ a{
   max-width: 505px;
   width:100%;
   background-color: #3DD3AE;
-   flex-direction: column;
+  flex-direction: column;
 }
 
 .experts__testimonial{
   font-size: 52px;
-}
-
-.experts__text{
-  align-self: flex-end;
+  text-align: center;
 }
 
 .vertical-line{
@@ -376,13 +375,81 @@ a{
 }
 
 .trophy{
-  background-image: url('../assets/images/trophy.svg');
+  background-image: url('../assets/icons/trophy.svg');
   width:100px;
   height: 100px;
 }
 
 .experts__text{
   align-self: flex-end;
+}
+
+.experts__text p:nth-child(1){
+  margin-top:126px;
+}
+
+.experts__text p:nth-child(2){
+  margin-top:24px;
+}
+
+.top-card-image{
+  max-height:251px;
+  height:100%;
+  max-width:286px;
+  width:100%;
+  background-color: purple;
+  margin-left: 400px;
+}
+
+.bottom-card{
+  max-height: 275px;
+  height: 100%;
+  max-width: 265px;
+  width: 100%;
+  background-color: #fff;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  color: #000;
+  font-family: 'futura', serif;
+}
+
+.year{
+  color: #979797;
+  font-size: 14px;
+  letter-spacing: -0.7px;
+}
+
+.bottom-card-text{
+  margin-top: 25px;
+  font-family: 'futura', serif;
+  font-size: 24px;
+  letter-spacing: -1.2px;
+}
+
+.join{
+  margin: 95px auto 0px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.join__text{
+  color:#fff;
+  font-size: 24px;
+  font-family: 'futura', serif;
+  text-align: center;
+}
+
+.join__button{
+  border-radius:5px;
+  background-color: var(--brand-color);
+  height: 70px;
+  width:  280px;
+  padding: 0px;
+  box-shadow:0 15px 50px 0 rgba(55, 239, 186, 0.3);
+  border:none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 footer{
