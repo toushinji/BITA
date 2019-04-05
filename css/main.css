@@ -430,6 +430,9 @@ a{
   margin: 95px auto 0px;
   max-width: 1000px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .join__text{
