@@ -508,9 +508,12 @@ footer{
 }
 
 .footer-wrapper{
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  margin: 75px auto 0px;
+  flex-direction: column;
+  outline: 1px solid yellow;
 }
 
 .footer-brand{
@@ -523,11 +526,8 @@ footer{
   font-family: "ITC";
   font-size: 24px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
   letter-spacing: -1.2px;
-  display: block;
+  padding-right: 300px;
 }
 
 .footer-nav{
@@ -536,21 +536,16 @@ footer{
   font-size: 15px;
   font-weight: bold;
   color: #e5e5e5;
-  margin-top: 80px;
 }
 
 .footer-nav a {
-  margin-left: 50px;
-}
-
-
-.footer-nav a{
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .appointment{
   font-family: 'futura', serif;
   font-size: 18px;
+  margin-top: 30px;
 }
 
 .numbers{
