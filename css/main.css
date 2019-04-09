@@ -337,51 +337,50 @@ a{
 }
 
 .experts{
-  margin: 100px auto 0px;
-  max-width: 1230px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 0px; 
+  max-width: 1230px; 
   width:  100%;
   max-height: 511px;
   height: 100%;
-  background-color: greenyellow;
+  outline:1px solid greenyellow;
 }
 
-.experts__header{
+h1{
   font-size: 100px;
   font-family: 'futura',serif;
   letter-spacing:-5px;
   color:rgba(0, 0, 0, 0.3);
   text-transform:uppercase;
+  position: absolute;
+  user-select: none;
 }
 
-.experts__text-block{
+.experts__wrapper{
+  position: absolute;
+  top: 59px;
+  left: 90px;
   display: flex;
   max-height: 347px;
   height:100%;
   max-width: 505px;
   width:100%;
-  background-color: #3DD3AE;
   flex-direction: column;
 }
 
-.experts__testimonial{
+h2 {
   font-size: 52px;
+  color: #fff;
   text-align: center;
-}
-
-.vertical-line{
-  width:10px;
-  height:10px;
-  background-color: #fff;
+  
 }
 
 .trophy{
   background-image: url('../assets/icons/trophy.svg');
   width:100px;
   height: 100px;
-}
-
-.experts__text{
-  align-self: flex-end;
 }
 
 .experts__text p:nth-child(1){
@@ -392,25 +391,30 @@ a{
   margin-top:24px;
 }
 
-.top-card-image{
+.testimonial__top-card{
+  position: absolute;
+  top: 55px;
+  right: 200px;
   max-height:251px;
   height:100%;
-  max-width:286px;
-  width:100%;
-  background-color: purple;
-  margin-left: 400px;
+  width:286px;
+  background-color: #979797;
 }
 
-.bottom-card{
+.testimonial__bottom-card{
+  position: absolute;
+  top: 186px;
+  right: 241px;
   max-height: 275px;
   height: 100%;
-  max-width: 265px;
+  max-width: 262px;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 12px;
   letter-spacing: -0.6px;
   color: #000;
   font-family: 'futura', serif;
+  padding: 25px 89px 58px 35px;
 }
 
 .year{
@@ -419,11 +423,50 @@ a{
   letter-spacing: -0.7px;
 }
 
-.bottom-card-text{
+h3{
   margin-top: 25px;
   font-family: 'futura', serif;
   font-size: 24px;
   letter-spacing: -1.2px;
+  color: #000000;
+  font-weight: bold;
+  max-width: 193px;
+  max-height: 89px;
+}
+
+.bottom-card-text{
+  margin-top: 15px;
+  font-family: "futura", serif;
+  font-size: 12px;
+  color: #27272f;
+  max-height: 44px;
+  max-width: 193px;
+}
+
+.highlight{
+  color: #e05ebd;
+}
+
+.arrows{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.right-arrow{
+  position: absolute  ;
+  bottom: 34px;
+  right: 240px;
+}
+
+.left-arrow{
+  width: 145px;
+  height: 145px; 
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: white;
+  background-image: url('../assets/icons/left-arrow.svg');
+ 
 }
 
 .join{
